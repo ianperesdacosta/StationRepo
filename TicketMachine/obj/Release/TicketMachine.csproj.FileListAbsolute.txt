@@ -1,0 +1,14 @@
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Release\TicketMachine.exe.config
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Release\TicketMachine.exe
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Release\TicketMachine.pdb
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Release\SimpleInjector.dll
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Release\TicketMachine.Data.dll
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Release\TicketMachine.Services.dll
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Release\TicketMachine.Data.pdb
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Release\TicketMachine.Services.pdb
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Release\SimpleInjector.xml
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Release\TicketMachine.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Release\TicketMachine.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Release\TicketMachine.csproj.CopyComplete
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Release\TicketMachine.exe
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Release\TicketMachine.pdb

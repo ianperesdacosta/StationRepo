@@ -1,0 +1,16 @@
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\TicketMachine.pdb
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\TicketMachine.exe.config
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\TicketMachine.exe
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\SimpleInjector.dll
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\TicketMachine.Data.dll
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\TicketMachine.Resources.dll
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\TicketMachine.Services.dll
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\TicketMachine.Data.pdb
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\TicketMachine.Resources.pdb
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\TicketMachine.Services.pdb
+C:\Users\ADMIN\source\repos\TicketMachine\bin\Debug\SimpleInjector.xml
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Debug\TicketMachine.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Debug\TicketMachine.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Debug\TicketMachine.csproj.CopyComplete
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Debug\TicketMachine.exe
+C:\Users\ADMIN\source\repos\TicketMachine\obj\Debug\TicketMachine.pdb

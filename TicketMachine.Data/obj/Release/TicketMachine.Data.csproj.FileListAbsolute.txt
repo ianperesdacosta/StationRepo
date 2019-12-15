@@ -1,0 +1,6 @@
+C:\Users\ADMIN\source\repos\TicketMachine.Data\bin\Release\TicketMachine.Data.dll
+C:\Users\ADMIN\source\repos\TicketMachine.Data\bin\Release\TicketMachine.Data.pdb
+C:\Users\ADMIN\source\repos\TicketMachine.Data\obj\Release\TicketMachine.Data.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\TicketMachine.Data\obj\Release\TicketMachine.Data.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\TicketMachine.Data\obj\Release\TicketMachine.Data.dll
+C:\Users\ADMIN\source\repos\TicketMachine.Data\obj\Release\TicketMachine.Data.pdb

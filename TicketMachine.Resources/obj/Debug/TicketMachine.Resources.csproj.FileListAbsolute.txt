@@ -1,0 +1,5 @@
+C:\Users\ADMIN\source\repos\TicketMachine.Resources\bin\Debug\TicketMachine.Resources.dll
+C:\Users\ADMIN\source\repos\TicketMachine.Resources\bin\Debug\TicketMachine.Resources.pdb
+C:\Users\ADMIN\source\repos\TicketMachine.Resources\obj\Debug\TicketMachine.Resources.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\TicketMachine.Resources\obj\Debug\TicketMachine.Resources.dll
+C:\Users\ADMIN\source\repos\TicketMachine.Resources\obj\Debug\TicketMachine.Resources.pdb
