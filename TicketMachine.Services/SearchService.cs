@@ -53,22 +53,23 @@ namespace TicketMachine.Services
 		}
 
 
-		public bool PerformSearch(string input, List<LookupModel> data)
+		public bool PerformSearch(string input, IEnumerable<LookupModel> data)
 		{
 			return data != null && data.Any(setItem => setItem.SearchName.StartsWith(input));
 		}
 
 		public void FilterSearchSet(IEnumerable<string> commonNames)
 		{
-			_nameRepository.CurrentSearchSet.RemoveAll(element => commonNames.Contains(element.CommonName) == false);
+			_nameRepository.CurrentSearchSet.RemoveAll(name => commonNames.Contains(name.CommonName) == false);
 		}
 
 		public void ClearCurrentSearchSet()
 		{
+			//Better to make the list null here. Each time the search set list size will change
 			_nameRepository.CurrentSearchSet.Clear();
 		}
 
-		public SearchResult Search(string input, List<LookupModel> dataSet)
+		public SearchResult Search(string input, IEnumerable<LookupModel> dataSet)
 		{
 			var commonNames = new List<string>();
 			var searchNames = new List<string>();
@@ -107,7 +108,7 @@ namespace TicketMachine.Services
 
 		private List<LookupModel> GetSearchSet(char c)
 		{
-			return _nameRepository.GetSearchSetByKey(c);
+			return _nameRepository.GetSearchSetByKey(c).ToList();
 		}
 	}
 }

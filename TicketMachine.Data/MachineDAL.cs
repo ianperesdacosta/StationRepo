@@ -10,9 +10,11 @@ namespace TicketMachine.Data
 {
 	public class MachineDAL : Disposable, IMachineDAL
 	{
+		//Can be made private to access only here.
+		//But I want to have this in the interface so that other machines must have this property
 		public Dictionary<char, List<LookupModel>> SearchIndex { get; set; } // Will store the actual data used for search
 		public List<LookupModel> CurrentSearchSet { get; set; } // The reduced search set the application is looking at
-		private List<string> Datasource { get; set; }
+		private IEnumerable<string> Datasource { get; set; }
 
 		public MachineDAL()
 		{
@@ -26,19 +28,19 @@ namespace TicketMachine.Data
 			return Datasource;
 		}
 
-		public string[] GetCommonNamesByKey(char key)
+		public IEnumerable<string> GetCommonNamesByKey(char key)
 		{
-			return Datasource.Where(name => name.Trim().ElementAt<char>(0) == key).ToArray();
+			return Datasource.Where(name => name.Trim().ElementAt<char>(0) == key);
 		}
 
-		public List<LookupModel> GetSearchSetByKey(char key)
+		public IEnumerable<LookupModel> GetSearchSetByKey(char key)
 		{
 			return this.SearchIndex[key];
 		}
 
 		public bool AddToSearchIndex(char key, List<LookupModel> names)
 		{
-			// Sorts the names and adds to search index, so that Binary Search can be used.
+			// Sorts the names and adds to search index
 			var sortedNames = names.OrderBy(name => name.SearchName).ToList();
 			this.SearchIndex.Add(key, sortedNames);
 			return true;

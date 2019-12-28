@@ -44,14 +44,13 @@ namespace TicketMachine.Services
 		// Create search set for given key A-Z
 		private List<LookupModel> CreateSearchSet(char c)
 		{
-			string[] namesByKey = _nameRepository.GetCommonNamesByKey(c);
-			var valueLength = namesByKey.Length;
+			IEnumerable<string> namesByKey = _nameRepository.GetCommonNamesByKey(c);
 
 			var searchSet = new List<LookupModel>();
-			for (int i = 0; i < valueLength; i++)
+			foreach (var commonName in namesByKey)
 			{
-				string cleanName = new string(namesByKey[i].Where(char.IsLetter).ToArray());
-				searchSet.Add(new LookupModel() { CommonName = namesByKey[i], SearchName = cleanName.ToUpperInvariant() });
+				string cleanName = new string(commonName.Where(char.IsLetter).ToArray());
+				searchSet.Add(new LookupModel() { CommonName = commonName, SearchName = cleanName.ToUpperInvariant() });
 			}
 
 			return searchSet;

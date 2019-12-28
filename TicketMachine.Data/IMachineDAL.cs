@@ -27,14 +27,14 @@ namespace TicketMachine.Data
 		/// </summary>
 		/// <param name="key"></param>
 		/// <returns></returns>
-		string[] GetCommonNamesByKey(char key);
+		IEnumerable<string> GetCommonNamesByKey(char key);
 
 		/// <summary>
 		/// Gets the search set by key
 		/// </summary>
 		/// <param name="key"></param>
 		/// <returns></returns>
-		List<LookupModel> GetSearchSetByKey(char key);
+		IEnumerable<LookupModel> GetSearchSetByKey(char key);
 
 		/// <summary>
 		/// Adds clean station names to the searchindex

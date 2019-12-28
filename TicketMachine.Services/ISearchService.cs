@@ -12,7 +12,7 @@ namespace TicketMachine.Services
 	{   
 		SearchResultVM GetSuggestions(string input);
 
-		bool PerformSearch(string input, List<LookupModel> data);
+		bool PerformSearch(string input, IEnumerable<LookupModel> data);
 
 		/// <summary>
 		/// Reduces the current search set by removing unmatched elements
@@ -30,7 +30,7 @@ namespace TicketMachine.Services
 		/// </summary>
 		/// <param name="input"></param>
 		/// <returns></returns>
-		SearchResult Search(string input, List<LookupModel> dataSet);
+		SearchResult Search(string input, IEnumerable<LookupModel> dataSet);
 
 		/// <summary>
 		/// Made async so that the application can continue to take input on the main thread.
